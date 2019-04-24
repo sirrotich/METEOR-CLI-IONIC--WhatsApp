@@ -15,7 +15,8 @@ export default class RoutesConfig extends Config {
         url: '/chats',
         views: {
           'tab-chats': {
-            templateUrl: chatsTemplateUrl
+            templateUrl: chatsTemplateUrl,
+            contoller: 'ChatsCtrl as chats'
           }
         }
       });
