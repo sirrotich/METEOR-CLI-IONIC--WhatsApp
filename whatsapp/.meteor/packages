@@ -26,3 +26,4 @@ templating
 angular-templates
 check
 mys:accounts-phone
+npm-bcrypt@0.8.7
